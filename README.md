@@ -378,6 +378,11 @@ Para dudas o issues relacionados con el proyecto, consultar la documentación of
 - [Django REST Framework](https://www.django-rest-framework.org/)
 - [Djoser](https://djoser.readthedocs.io/)
 
-## Licencia
+## 🤝 Contribuciones
 
-Este proyecto es parte de un ejercicio educativo.
+Las contribuciones son bienvenidas. Por favor:
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
