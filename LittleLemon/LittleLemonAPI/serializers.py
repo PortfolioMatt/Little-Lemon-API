@@ -22,7 +22,7 @@ class MenuItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = MenuItem
-    fields = ['id', 'dish', 'price', 'price_after_tax', 'stock', 'category', 'category_id', 'is_item_of_the_day']
+        fields = ['id', 'dish', 'price', 'price_after_tax', 'stock', 'category', 'category_id', 'is_item_of_the_day']
 
     def get_price_after_tax(self, obj):
         tax_rate = Decimal('0.10')  # 10% tax

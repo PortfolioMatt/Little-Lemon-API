@@ -1,7 +1,9 @@
-1) Open comand terminal
-2) pipenv shell
-3) cd LittleLemon
-4) pipenv install
-5) python manage.py makemigrations
-6) python manage.py migrate
-7) python manage.py runserver
+1) Open command terminal (PowerShell)
+2) cd Little-Lemon
+3) pipenv install
+4) pipenv run python LittleLemon\\manage.py migrate
+5) pipenv run python LittleLemon\\manage.py runserver
+
+Notes:
+- Use "pipenv run" to ensure you're using the correct virtualenv.
+- "makemigrations" is only needed if you changed models (migrations are already included in the repo).

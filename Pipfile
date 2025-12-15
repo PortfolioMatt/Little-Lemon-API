@@ -8,6 +8,8 @@ django = "*"
 djangorestframework = "*"
 djoser = "*"
 djangorestframework-simplejwt = "~=5.2.1"
+django-filter = "*"
+setuptools = "*"
 
 [dev-packages]
 
